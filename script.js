@@ -30,6 +30,6 @@ var checkDead = setInterval(() => {
 		console.dir([characterTop, blockLeft]);
 		blockRef.style.animation = "none";
 		blockRef.style.display = "none";
-		alert("You lose!");
+		alert("Вы проиграли! Перезапустите игру! You Lose! Reload the game");
 	}
 }, 10);
